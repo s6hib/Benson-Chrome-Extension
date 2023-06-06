@@ -1,0 +1,10 @@
+{
+  "name": "Benson Motivation",
+  "description": "Everytime you go to YouTube to start procrastinating, Benson will remind you to get back to work.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+       "matches": ["https://*.youtube.com/*"],
+      "css": ["styles.css"]
+  }]
+}
